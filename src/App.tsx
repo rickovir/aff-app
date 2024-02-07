@@ -13,20 +13,25 @@ function App() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
+      "Yg bener?",
+      "Jangan dong :(",
+      "Yakin enggak ?",
       "Are you sure?",
       "Really sure?",
-      "Think again!",
-      "Last chance!",
+      "Coba lagi!",
+      "Kesempatan terakhir nih!",
+      "Cantik, kamu yakin?",
       "Surely not?",
+      "Kasih aku kesempatan lagi!",
       "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
+      "Kamu beneran yakin nih?",
+      "Maukan aku perjuangkan mati-matian?",
+      "Ini bukan keputusan tepat lho!",
+      "Pliss buka hati kamuu :'(!",
       "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
+      "Berubah pikiran ya?",
+      "Mau pikir ulang ?",
+      "Apakah ini jawaban terakhir kamu?",
       "You're breaking my heart ;(",
     ];
 
@@ -38,7 +43,9 @@ function App() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="ok-text text-4xl font-bold my-4">Ok yay!!!</div>
+          <div className="ok-text text-4xl font-bold my-4">
+            Ok yay, gas ke KUA!!!
+          </div>
         </>
       ) : (
         <>
@@ -46,7 +53,11 @@ function App() {
             className="mydoll"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="question-text">Will you be my Valentine?</h1>
+          <h1 className="question-text">
+            Afifah
+            <br />
+            Will you be mine ?
+          </h1>
           <div>
             <button
               className={`yes-button`}
