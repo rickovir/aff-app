@@ -42,9 +42,9 @@ function App() {
     <div className="surprise-wrapper">
       {yesPressed ? (
         <>
-          <img src="https://i.pinimg.com/originals/84/78/a1/8478a1b6c9829a3c5ac71210bdae59df.gif" />
+          <img src="https://media.tenor.com/0IKwuW91-ZQAAAAi/mimibubu.gif" />
           <div className="ok-text text-4xl font-bold my-4">
-            Ok yay, gas ke KUA!!!
+            Ok yay, let's go kita ke KUA!!!
           </div>
         </>
       ) : (
