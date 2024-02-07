@@ -42,7 +42,10 @@ function App() {
     <div className="surprise-wrapper">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/0IKwuW91-ZQAAAAi/mimibubu.gif" />
+          <img
+            className="mydoll"
+            src="https://media.tenor.com/0IKwuW91-ZQAAAAi/mimibubu.gif"
+          />
           <div className="ok-text text-4xl font-bold my-4">
             Ok yay, let's go kita ke KUA!!!
           </div>
